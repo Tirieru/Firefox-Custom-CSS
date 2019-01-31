@@ -43,7 +43,7 @@
 /* tabs bar bottom borders */
 #TabsToolbar{
   margin-bottom: 0px !important;
-  border-bottom: 1px solid #5f7181 !important;
+  border-bottom: 0px solid #5f7181 !important;
  }
 
 
@@ -130,8 +130,8 @@
 
 /** TABS BOTTOM **/
 
-/* Modify to change window drag space width */
-:root[tabsintitlebar="true"] #nav-bar{ --window-drag-space-width: 24px }
+/* Modify to change window drag space width 
+:root[tabsintitlebar="true"] #nav-bar{ --window-drag-space-width: 24px }*/
 
 .titlebar-buttonbox-container{
   position: fixed;
@@ -158,3 +158,15 @@
 #TabsToolbar .titlebar-spacer{ display: none; }
 /* Also hide the toolbox bottom border which isn't at bottom with this setup */
 #navigator-toolbox::after{ display: none !important; }
+
+
+/* Menubar on top patch - use with Fx65_tabs_on_bottom.css */
+/* Only really useful if menubar is ALWAYS visible */
+#toolbar-menubar{
+  position: fixed;
+  top: 0px;
+  height: 22px;
+  margin-top:16px;
+  width: 100%;
+  overflow: hidden;
+}
