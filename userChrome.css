@@ -153,7 +153,8 @@
 }
 :root[tabsintitlebar="true"] #nav-bar{
   padding-right: calc(138px + var(--window-drag-space-width,0px));
-  padding-left: var(--window-drag-space-width,0px)
+  padding-left: var(--window-drag-space-width,0px);
+  padding-top: 6px;
 }
 .titlebar-placeholder,
 #TabsToolbar .titlebar-spacer{ display: none; }
