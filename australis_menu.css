@@ -73,20 +73,15 @@ photonpanelmultiview .panel-subview-body{
   padding: 6px 10px !important;
 }
 
-#widget-overflow-mainView, .widget-overflow-list, #widget-overflow-fixed-list{
-  min-width: unset !important;
-  width: 266px !important;
+#widget-overflow-fixed-list{
+  display: grid;
+  grid-template-columns: auto auto auto;
 }
 
 .titlebar-button:hover {
     background-color: Highlight !important;
 }
 
-
-/* rotate the arrows down
-#nav-bar-overflow-button .toolbarbutton-icon{
-  transform: rotate(90deg) !important;
-}*/
 
 
 /* removes the hamburger button */

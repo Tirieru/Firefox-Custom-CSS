@@ -7,7 +7,7 @@ My current firefox setup.
 * https://github.com/MrOtherGuy/firefox-csshacks
 * https://www.reddit.com/r/FirefoxCSS/
 
-The code blocks were mainly copied from the above sources, with a few changes made by me.
+The snippets were mainly copied from the above sources, with a few changes made by me.
 
 ## Screenshots
 
