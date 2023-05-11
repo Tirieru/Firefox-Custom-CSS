@@ -13,8 +13,6 @@ Some snippets were mainly copied from the above sources, with a few changes made
 
 ![Full Screenshot](img/screenshot.png)
 
-![Menu Screenshot](img/menu.png)
-
 ### Theme
 
 * https://addons.mozilla.org/en-US/firefox/addon/pink-flourishes/
